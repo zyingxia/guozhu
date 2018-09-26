@@ -1,0 +1,738 @@
+/* 阴阳师主页部分 */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+/* 第一栏 */
+
+.top {
+    width: 100%;
+    height: 55px;
+}
+
+.top w {
+    position: relative;
+}
+
+.top>.w>a {
+    display: inline-block;
+    width: 133px;
+    height: 50px;
+    background: url(../images/logo_b5525b7.png) no-repeat;
+}
+
+.top .xian {
+    display: inline-block;
+    width: 420px;
+    height: 55px;
+    margin-left: 20px;
+}
+
+.top .yin {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 210px;
+    z-index: 2;
+}
+
+.topright {
+    float: right;
+    height: 55px;
+    line-height: 55px;
+}
+
+.topright li {
+    float: left;
+    margin-right: 30px;
+}
+
+.topright li a {
+    display: inline-block;
+    height: 52px;
+}
+
+.topright li a:hover {
+    border-bottom: 3px solid #be2618;
+}
+
+.yin2 {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 210px;
+    z-index: 2;
+}
+
+.yin2 img {
+    width: 1100px;
+    height: 500px;
+}
+
+.disnone {
+    display: none;
+}
+
+#disnone {
+    width: 96px;
+    text-align: center;
+}
+
+
+/* 主图部分--犬夜叉 */
+
+.main {
+    width: 100%;
+    height: 1056px;
+    background: url(../images/bgg1_8d20d0e.jpg) no-repeat -200px 0;
+    position: relative;
+}
+
+.main-top {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main-top p {
+    font-size: 12px;
+    color: #c9cccb;
+}
+
+.main-left {
+    width: 164px;
+    height: 213px;
+    position: absolute;
+    top: 40px;
+    left: 55px;
+}
+
+.main-left .main1 {
+    margin-right: 35px;
+    width: 67px;
+    height: 166px;
+}
+
+.main-left .main2 {
+    width: 67px;
+    height: 203px;
+    margin-top: -165px;
+    margin-left: 95px;
+}
+
+.main-right {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+}
+
+.main-right a {
+    display: block;
+    width: 145px;
+    height: 45px;
+    background: url(../images/微信图片_20180719225418.png) -1122px -648px;
+}
+
+.main .video {
+    width: 118px;
+    height: 77px;
+    background: url(../images/icon_video_b8b5e11.png) no-repeat;
+    position: absolute;
+    bottom: 230px;
+    right: 240px;
+}
+
+.shipin {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 99;
+    display: none;
+}
+
+.shipin video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 200px auto;
+    width: 700px;
+}
+
+.shipin .closevideo {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 110px;
+    left: 1100px;
+    background: url(../images/index_z_2f4985f.png) no-repeat -1054px -648px;
+    transition: all 1s;
+}
+
+.shipin .closevideo:hover {
+    transform: rotateZ(360deg);
+}
+
+
+/* 新版本情报 */
+
+.xinbanben {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    background: url(../images/bgg2_5453e0f.jpg) no-repeat -200px 0;
+}
+
+.qingbao1 {
+    position: absolute;
+    left: 50%;
+    margin-left: -190px;
+}
+
+.qingbao1 img {
+    width: 381px;
+    height: 192px;
+}
+
+.qingbao2,
+.qingbao3 {
+    height: 430px;
+}
+
+.xinbanben .qingbao2 ul li {
+    float: left;
+}
+
+.xinbanben .qingbao3 ul li {
+    float: left;
+}
+
+.xinbanben a {
+    display: inline-block;
+}
+
+.qingbao2 li:nth-child(1) {
+    position: relative;
+}
+
+.qingbao2 li i {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    background: url(../images/icon_7ed340d.png);
+    top: 415px;
+    left: 400px;
+}
+
+.qingbao2 li:nth-child(1) a {
+    width: 311px;
+    height: 353px;
+    background: url(../images/微信图片_20180719225418.png) -742px 0;
+    margin-left: 132px;
+    margin-right: 160px;
+    margin-top: 190px;
+}
+
+.qingbao2 li:nth-child(2) a {
+    width: 363px;
+    height: 384px;
+    background: url(../images/微信图片_20180719225418.png) 0 -718px;
+    margin-right: 105px;
+    margin-top: 170px;
+}
+
+.qingbao2 li:nth-child(3) a {
+    width: 382px;
+    height: 445px;
+    background: url(../images/微信图片_20180719225418.png) -362px -718px;
+    margin-top: 105px;
+}
+
+.qingbao3 li:nth-child(1) a {
+    width: 389px;
+    height: 378px;
+    background: url(../images/微信图片_20180719225418.png) -352px 0;
+    margin-left: 132px;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+
+.qingbao3 li:nth-child(2) a {
+    width: 346px;
+    height: 366px;
+    background: url(../images/微信图片_20180719225418.png) -1053px 0;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+.qingbao3 li:nth-child(3) a {
+    width: 352px;
+    height: 372px;
+    background: url(../images/微信图片_20180719225418.png) 0 0;
+    margin-top: 20px;
+}
+
+
+/* 新版报点击轮播图 */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(49, 56, 90, .8);
+    z-index: 99;
+    display: none;
+}
+
+.close {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 110px;
+    left: 1100px;
+    background: url(../images/index_z_2f4985f.png) no-repeat -1054px -648px;
+    transition: all 1s;
+}
+
+.close:hover {
+    transform: rotateY(180deg);
+}
+
+.bimg {
+    width: 100%;
+    height: 417px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    z-index: 999;
+}
+
+.bimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 左右箭头 */
+
+.bimg>span {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+}
+
+.bimg .arrow-left {
+    background: url(../images/left.png) no-repeat;
+    position: absolute;
+    left: 110px;
+    top: 50%;
+    margin-top: -34px;
+    z-index: 10000;
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+}
+
+.bimg .arrow-right {
+    background: url(../images/right.png) no-repeat;
+    position: absolute;
+    right: 240px;
+    top: 50%;
+    margin-top: -34px;
+    z-index: 10000;
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+}
+
+
+/* 文字内容 */
+
+.text {
+    width: 410px;
+    height: 320px;
+    overflow: auto;
+    position: absolute;
+    top: 45px;
+    right: 10px;
+}
+
+.text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+
+.text p {
+    font-size: 14px;
+    color: #3A3A3A;
+    margin-top: 10px;
+}
+
+.text p b {
+    font-size: 16px;
+    color: #104EAB;
+    margin-bottom: 5px;
+}
+
+
+/* li 上的图片 */
+
+.view {
+    width: 1000px;
+    height: 417px;
+    position: absolute;
+    bottom: 100px;
+    left: 250px;
+    z-index: 9999;
+}
+
+.bigbox {
+    width: 1000px;
+    height: 417px;
+    overflow: hidden
+}
+
+.bigbox li {
+    width: 1000px;
+    height: 100%;
+    float: left;
+    position: absolute;
+}
+
+.bigbox li>img {
+    width: 547px;
+    height: 690px;
+    position: absolute;
+    top: -135px;
+    left: 0;
+}
+
+
+/* 游戏特色 */
+
+.features {
+    width: 100%;
+    height: 800px;
+    background: url(../images/bgg3_f49f63e.jpg) no-repeat -200px 0;
+    position: relative;
+}
+
+.features_title {
+    position: absolute;
+    left: 50%;
+    margin-left: -190px;
+}
+
+.features .container {
+    width: 1370px;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    padding-top: 250px;
+}
+
+.features .container .imgbox {
+    height: 460px;
+    width: 1000px;
+    /* background-color: skyblue; */
+    perspective: 1000px;
+    transform-origin: 50% 50%;
+    margin: 0 auto;
+}
+
+.features .container .imgbox ul {
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    left: 30%;
+    top: 80px;
+    z-index: 300;
+}
+
+.features .container .imgbox ul li {
+    /* list-style: n; */
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    transition: transform 1s;
+    border: 1px solid #9A854F;
+}
+
+.features .container .imgbox ul li img {
+    width: 100%;
+}
+
+.features .container {
+    position: relative;
+}
+
+.container #btn1 {
+    display: inline-block;
+    width: 73px;
+    height: 65px;
+    background: url(../images/index_z_2f4985f.png) no-repeat -1005px -739px;
+    position: absolute;
+    top: 380px;
+    left: 0;
+}
+
+.container #btn2 {
+    display: inline-block;
+    width: 73px;
+    height: 65px;
+    background: url(../images/index_z_2f4985f.png) no-repeat -905px -739px;
+    position: absolute;
+    top: 380px;
+    right: 0;
+    z-index: 1000;
+}
+
+
+/* 底部部分 */
+
+.footer {
+    width: 100%;
+    height: 160px;
+    background-color: #18182b;
+}
+
+.footer-top {
+    margin-bottom: 20px;
+}
+
+.footer-top ul {
+    margin-left: 310px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.footer-top li {
+    float: left;
+    margin-right: 25px;
+}
+
+.footer-top li span {
+    color: #9e8c4a;
+}
+
+.footer-top i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.footer-top ul li:nth-child(1) i {
+    background: url(../images/icon.v5.png) -150px -350px;
+}
+
+.footer-top ul li:nth-child(2) i {
+    background: url(../images/icon.v5.png) -150px -327px;
+}
+
+.footer-top ul li:nth-child(3) i {
+    background: url(../images/icon.v5.png) -150px -25px;
+}
+
+.footer-top ul li:nth-child(4) i {
+    background: url(../images/icon.v5.png) -150px 0px;
+}
+
+.footer-top ul li:nth-child(5) i {
+    background: url(../images/icon.v5.png) -150px -375px;
+}
+
+.footer-left,
+.footer-rigth {
+    float: left;
+}
+
+.footer-left span:nth-child(1) {
+    display: inline-block;
+    width: 118px;
+    height: 31px;
+    background: url(../images/netease.2.png) no-repeat;
+}
+
+.footer-left span:nth-child(2) {
+    display: inline-block;
+    width: 134px;
+    height: 31px;
+    background: url(../images/nie.2.png) no-repeat;
+}
+
+.footer-left {
+    margin-left: 100px;
+}
+
+.footer-rigth {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 70px;
+}
+
+.footer-rigth a {
+    display: inline-block;
+    width: 135px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #600100;
+    margin-left: 150px;
+    padding-left: 5px;
+}
+
+.footer-rigth p {
+    margin-bottom: 10px;
+}
+
+
+/* 外部定位广告 */
+
+.ding {
+    width: 135px;
+    height: 350px;
+    background-color: #211F4E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ding1 {
+    width: 140px;
+    height: 140px;
+    box-sizing: border-box;
+}
+
+.ding1 li {
+    float: left;
+    margin-right: 5px;
+}
+
+.ding1 img {
+    width: 110px;
+    height: 110px;
+}
+
+.ding1 li:first-child {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ding1 li:first-child .highlight {
+    width: 110px;
+    height: 8px;
+    background: url(../images/index_z_2f4985f.png) no-repeat -1120px -694px;
+    position: absolute;
+    top: 2px;
+    animation: run 10s infinite;
+}
+
+@keyframes run {
+    50% {
+        top: 112px;
+    }
+}
+
+.ding1 li:last-child {
+    width: 10px;
+    height: 93px;
+    color: #c9cccb;
+    font-size: 12px;
+}
+
+.ding i {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.ding2 i {
+    width: 138px;
+    height: 40px;
+    background: url(../images/index_z_2f4985f.png) -883px -672px;
+}
+
+.ding3 i {
+    width: 138px;
+    height: 40px;
+    background: url(../images/index_z_2f4985f.png) -743px -672px;
+}
+
+.ding4 i {
+    width: 138px;
+    height: 112px;
+    background: url(../images/index_z_2f4985f.png) -751px -720px;
+}
+
+.ding-b {
+    margin-top: 5px;
+    width: 155px;
+    height: 180px;
+    background-color: #211F4E;
+    border-radius: 10px;
+}
+
+.ding-b div:first-child {
+    height: 40px;
+    background-color: #100F27;
+}
+
+.ding-b div:first-child img {
+    width: 140px;
+    height: 40px;
+}
+
+.ding-b div:last-child {
+    padding: 10px;
+}
+
+.ding-b li {
+    float: left;
+}
+
+.ding-b li:nth-child(2) {
+    font-size: 12px;
+    width: 20px;
+    margin-left: 4px;
+    line-height: 13px;
+    color: white;
+}
+
+
+/* 网页定位广告开关 */
+
+.ding-close,
+.ding-open {
+    width: 26px;
+    height: 41px;
+    position: absolute;
+    top: 250px;
+    right: 155px;
+    z-index: 999;
+}
+
+.ding-open {
+    display: none;
+}
+
+.box {
+    position: fixed;
+    top: 100px;
+    right: 17px;
+    z-index: 9999;
+}

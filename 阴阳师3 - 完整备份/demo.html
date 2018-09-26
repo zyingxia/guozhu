@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            perspective: 1000px;
+            perspective-origin: 50% 50%;
+            width: 1370px;
+            height: 650px;
+            border: 1px solid #000;
+        }
+        
+        ul,
+        li {
+            list-style: none;
+        }
+        
+        ul {
+            height: 100%;
+            transform-style: preserve-3d;
+            position: relative;
+            left: 30%;
+            top: 80px;
+        }
+        
+        li {
+            width: 400px;
+            height: 650px;
+            position: absolute;
+            transition: transform 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn1">按钮1</button>
+    <button id="btn2">按钮2</button>
+    <div class="container">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <script>
+        var lis = document.getElementsByTagName('li');
+        var arrLeft = document.getElementById('btn1');
+        var arrRight = document.getElementById('btn2');
+        var colorArr = ['red', 'blue', 'green', 'pink', 'orange'];
+        for (var i = 0; i < lis.length; i++) {
+            lis[i].style.backgroundColor = colorArr[i];
+        }
+
+        // count用于计算旋转位置
+        var count = 1;
+        // 调用change() 用于初始化li的位置
+        change();
+
+        // 左右按钮点击后，通过count的修改与change的调用，更改每个li的位置
+        arrLeft.onclick = function() {
+            count++;
+            change();
+        };
+        arrRight.onclick = function() {
+            count--;
+            change();
+        };
+
+        function change() {
+            for (var i = 0; i < lis.length; i++) {
+                lis[i].style.transform = 'rotateY(' + 72 * (i + count) + 'deg) translateZ(350px)';
+            }
+        }
+    </script>
+</body>
+
+</html>

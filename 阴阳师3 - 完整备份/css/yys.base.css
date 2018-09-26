@@ -1,0 +1,108 @@
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd,
+input,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+}
+
+a {
+    text-decoration: none;
+    color: #393939;
+}
+
+a:hover {
+    color: #e10407;
+}
+
+input {
+    outline: none;
+    border: 0 none;
+}
+
+.w {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 arial, "microsoft yahei";
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.mr0 {
+    margin-right: 0;
+}
